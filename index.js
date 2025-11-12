@@ -21,7 +21,7 @@ function escreverTexto() {
     }
 
     indice++;
-    setTimeout(escreverTexto, 25); // ajuste a velocidade se quiser
+    setTimeout(escreverTexto, 45); // ajuste a velocidade se quiser
   }
 }
 
