@@ -1,6 +1,7 @@
 body {
   color: limegreen;
   background-color: black;
+  overflow: auto;
 }
 
 p{
@@ -9,11 +10,11 @@ p{
 }
 
 .scanlines-overlay {
-  position: fixed;
+  position: absolute;
   top:0;
   left:0;
   width:100%;
-  height:100dvh;
+  height:100%;
   z-index:1;
   background: repeating-linear-gradient(
     to bottom,
